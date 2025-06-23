@@ -1,0 +1,92 @@
+Results:
+==============================================================================================
+SORTING ALGORITHM ANALYSIS
+==================================================
+
+Testing with n=100
+------------------------------
+Dataset (random, n=100): 562 727 349 916 7 595 873 516 960 976 ...
+Bubble Sort: 0ms, 4950 operations
+Quick Sort: 0ms, 703 operations
+Merge Sort: 0ms, 536 operations
+
+Testing with n=1000
+------------------------------
+Dataset (random, n=1000): 562 727 349 916 7 595 873 516 960 976 ...
+Bubble Sort: 7ms, 499500 operations
+Quick Sort: 1ms, 10942 operations
+Merge Sort: 0ms, 8689 operations
+
+Testing with n=5000
+------------------------------
+Dataset (random, n=5000): 562 727 349 916 7 595 873 516 960 976 ...
+Bubble Sort: 125ms, 12497500 operations
+Quick Sort: 0ms, 70363 operations
+Merge Sort: 0ms, 55233 operations
+
+Testing with n=10000
+------------------------------
+Dataset (random, n=10000): 562 727 349 916 7 595 873 516 960 976 ...
+Bubble Sort: 618ms, 49995000 operations
+Quick Sort: 0ms, 179596 operations
+Merge Sort: 11ms, 120387 operations
+
+Performance Summary:
+--------------------------------------------------
+Bubble Sort (O(n^2)): 618ms, 49995000 operations
+Quick Sort (O(n log n)): 0ms, 179596 operations
+Merge Sort (O(n log n)): 11ms, 120387 operations
+
+
+SEARCH ALGORITHM ANALYSIS
+==================================================
+
+Testing with n=1000
+------------------------------
+Element Present (target=501)
+Linear Search: 0ms, 501 operations
+Binary Search: 0ms, 9 operations
+
+Element Not Present (target=2000)
+Linear Search: 0ms, 1000 operations
+Binary Search: 0ms, 10 operations
+
+Testing with n=10000
+------------------------------
+Element Present (target=5001)
+Linear Search: 0ms, 5001 operations
+Binary Search: 0ms, 13 operations
+
+Element Not Present (target=11000)
+Linear Search: 0ms, 10000 operations
+Binary Search: 0ms, 14 operations
+
+Testing with n=100000
+------------------------------
+Element Present (target=50001)
+Linear Search: 0ms, 50001 operations
+Binary Search: 0ms, 16 operations
+
+Element Not Present (target=101000)
+Linear Search: 0ms, 100000 operations
+Binary Search: 0ms, 17 operations
+
+Testing with n=1000000
+------------------------------
+Element Present (target=500001)
+Linear Search: 0ms, 500001 operations
+Binary Search: 0ms, 19 operations
+
+Element Not Present (target=1001000)
+Linear Search: 7ms, 1000000 operations
+Binary Search: 0ms, 20 operations
+
+Testing with n=100000000
+------------------------------
+Element Present (target=50000001)
+Linear Search: 275ms, 50000001 operations
+Binary Search: 0ms, 26 operations
+
+Element Not Present (target=100001000)
+Linear Search: 505ms, 100000000 operations
+Binary Search: 0ms, 27 operations
