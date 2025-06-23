@@ -38,7 +38,7 @@ Quick Sort (O(n log n)): 0ms, 179596 operations
 Merge Sort (O(n log n)): 11ms, 120387 operations
 
 
-SEARCH ALGORITHM ANALYSIS
+SEARCH ALGORITHM ANALYSIS( On Sorted Data)
 ==================================================
 
 Testing with n=1000
